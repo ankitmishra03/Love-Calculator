@@ -8,11 +8,11 @@ if(input==="Bunty"||input==="Bunty Mishra"||input==="bunty"||input==="bunty Mish
 }
 document.getElementById("show").innerHTML="Your Love Percentage is "+(Math.floor(x)+1+"%");
 
-if(x==100)
+if(x>=99)
 {
     document.getElementById("show1").innerHTML="O maa go turuu lobbhhh";
 }
-else if(x>=90 && x<100)
+else if(x>=90 && x<99)
 {
     document.getElementById("show1").innerHTML="sabka katega";
 }
