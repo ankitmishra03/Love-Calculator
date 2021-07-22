@@ -1,0 +1,32 @@
+body{
+    background-image: url("love.jpg");
+}
+h1{
+    display:flex;
+    justify-content: center;
+}
+#main{
+    position: fixed; 
+    top: 50%; 
+    left: 30%;
+}
+#main1{
+    position: fixed; 
+    top: 50%; 
+    right: 30%;
+}
+#submit{
+    position: fixed; 
+    top: 65%; 
+    left: 47%
+}
+#show{
+    display:flex;
+    justify-content: center;
+    color: red;
+}
+#show1{
+    display:flex;
+    justify-content: center;
+    color:rgb(255, 0, 85);
+}
