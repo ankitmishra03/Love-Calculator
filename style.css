@@ -30,7 +30,6 @@ h1{
     justify-content: center;
     color:rgb(255, 0, 85);
 }
-
 @media screen and (max-width: 800px) {
     #main{
       left: 20%;
@@ -40,5 +39,20 @@ h1{
     #main1{
         right:10%;
         top:50%;
+    }
+  }
+  @media screen and (max-width: 550px) {
+    #main{
+      left: 30%;
+      top:30%;
+      /* margin-top: 0; */
+    }
+    #main1{
+        left:30%;
+        top:50%;
+    }
+    #submit{
+        left: 30%;
+        top: 70%;
     }
   }
